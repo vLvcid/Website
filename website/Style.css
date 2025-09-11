@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #070607;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+header nav a.active {
+  border-bottom: 2px solid #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.projects, .about, .portfolio, .contact, .project-detail {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projects-grid, .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.card:hover {
+  background: #ffffff;
+}
+
+footer {
+  background: #4c02ac;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #333;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 1rem;
+}
