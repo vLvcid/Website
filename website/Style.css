@@ -34,6 +34,30 @@ header nav a.active {
   max-width: 1000px;
   margin: auto;
 }
+.project-card {
+  width: 100px;              /* Adjust to your preferred card size */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+.project-card img {
+  width: 100%;
+  height: 500px;  
+  height: 50px;          /* fixed height for image */
+  object-fit: contain;         /* keeps the aspect ratio and crops if needed */
+  display: block;
+}
+
+.project-card .content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
 
 .projects-grid, .portfolio-grid {
   display: grid;
