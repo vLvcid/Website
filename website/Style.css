@@ -2,11 +2,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #1d1d1d;
+  color: #5803c7;
 }
 
 header {
-  background: #070607;
-  color: white;
+  background: #000000;
+  color: rgb(255, 255, 255);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -20,7 +22,7 @@ header nav a {
 }
 
 header nav a.active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .hero {
@@ -42,7 +44,7 @@ header nav a.active {
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .project-card img {
@@ -74,11 +76,11 @@ header nav a.active {
 }
 
 .card {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #000000;
+  border: 1px solid #5803c7;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #5803c7;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
