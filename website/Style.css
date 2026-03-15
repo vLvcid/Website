@@ -48,8 +48,7 @@ header nav a.active {
 }
 
 .project-card img {
-  width: 100%;
-  height: 500px;  
+  width: 100%; 
   height: 50px;          /* fixed height for image */
   object-fit: contain;         /* keeps the aspect ratio and crops if needed */
   display: block;
@@ -125,4 +124,16 @@ button {
   color: rgb(255, 255, 255);
   cursor: pointer;
   margin-top: 1rem;
+}
+
+.image-row {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+}
+
+.image-row img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
